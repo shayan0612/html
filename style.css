@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.nav-btn {
+  background-color: #e3fd83;
+  color: #fd4cb7;
+  border-radius: 26px;
+  font-weight: bold;
+  padding: 1px 23px;
+}
+.nav-link a {
+  color: #6c0755;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.showcase {
+  background: linear-gradient(249.17deg, #c7c8ff -0.42%, #9bfce6 100%);
+  background-position: left;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.showcase-btn {
+  background-color: #e3fd83;
+  color: #fd4cb7;
+  border-radius: 30px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.card1-body {
+  border: 1px solid black;
+  border-radius: 10px;
+
+  background: linear-gradient(92.68deg, #fdc0e4 0%, #f2fec7 100.25%);
+}
+.card1-head1 {
+  color: #a21081;
+  font-size: 36px;
+  font-weight: bold;
+}
+.forms {
+  background: linear-gradient(180deg, #ffffff 0%, #fdc0e4 100%);
+}
+.card1-icon {
+  font-size: 30px;
+  margin-right: 15px;
+}
+.card2-body {
+  border: 1px solid black;
+  border-radius: 10px;
+  background: linear-gradient(92.68deg, #9bfce6 0%, #e3fd83 100.25%);
+}
+.card2-head1 {
+  color: #a21081;
+  font-size: 36px;
+  font-weight: bold;
+}
+.card3-body {
+  border: 1px solid black;
+  border-radius: 10px;
+  background: linear-gradient(92.68deg, #c7c9fd 0%, #ffaee8 100.25%);
+}
+.card3-head1 {
+  color: #a21081;
+  font-size: 36px;
+  font-weight: bold;
+}
+.card4-body {
+  border: 1px solid black;
+  border-radius: 10px;
+  background: linear-gradient(92.68deg, #9bfce6 0%, #fed0eb 100.25%);
+}
+.card4-head1 {
+  color: #a21081;
+  font-size: 36px;
+  font-weight: bold;
+}
+.forms-footer {
+  background-color: #e3fd83;
+  color: #fd4cb7;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px 50px;
+}
+.footer-img {
+  width: 135px;
+  margin-left: 130px;
+}
+.footer {
+  background: #70ffe5;
+}
+.follow.msg {
+  font-weight: bold;
+}
+.footer-copyright {
+  background-color: #4f085e;
+  color: white;
+}
+.footer-head1 {
+  color: #4f085e;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.footer-anchors {
+  text-decoration: none;
+  color: #4f085e;
+}
+.form-img {
+  width: 100%;
+}
+.showcase-head2 {
+  color: #4f085e;
+}
+.showcase-img {
+  width: 37%;
+}
+/* @media (min-width: 768px) and (max-width: 1000px) {
+  .showcase-text {
+    text-align: justify;
+  }
+} */
+@media (max-width: 991.98px) {
+  .form-img {
+    width: 25%;
+  }
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: end;
+  }
+  .card-p {
+    text-align: justify;
+  }
+  .card2-head1 {
+    text-align: justify;
+  }
+  .card4-head1 {
+    text-align: justify;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer-img {
+    margin-left: 0px;
+  }
+  .showcase {
+    background-position: center;
+  }
+  .showcase-text {
+    text-align: center;
+  }
+  .showcase-img {
+    margin-top: 40px;
+    width: 70%;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer-icons {
+    justify-content: center;
+  }
+  .showcase {
+    background-size: 100%;
+  }
+}
+@media (max-width: 575.98px) {
+  .showcase-img {
+    margin-top: 10px;
+    width: 50%;
+  }
+  .showcase-head2 {
+    font-size: 20px;
+  }
+  .card-p {
+    text-align: justify;
+  }
+  .card1-head1 {
+    text-align: justify;
+  }
+  .card3-head1 {
+    text-align: justify;
+  }
+}
